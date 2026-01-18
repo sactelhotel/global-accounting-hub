@@ -9,12 +9,12 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { href: '#home', label: t.nav.home },
-    { href: '#about', label: t.nav.about },
-    { href: '#services', label: t.nav.services },
-    { href: '#methodology', label: t.nav.methodology },
-    { href: '#testimonials', label: t.nav.testimonials },
-    { href: '#contact', label: t.nav.contact },
+    { href: '/#home', label: t.nav.home },
+    { href: '/#about', label: t.nav.about },
+    { href: '/#services', label: t.nav.services },
+    { href: '/#methodology', label: t.nav.methodology },
+    { href: '/#testimonials', label: t.nav.testimonials },
+    { href: '/contact', label: t.nav.contact },
   ];
 
   return (

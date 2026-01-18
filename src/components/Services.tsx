@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -12,18 +13,21 @@ export function Services() {
       title: t.services.business.title,
       description: t.services.business.description,
       color: 'bg-primary',
+      link: '/business-accounting',
     },
     {
       icon: TrendingUp,
       title: t.services.corporate.title,
       description: t.services.corporate.description,
       color: 'bg-secondary',
+      link: null,
     },
     {
       icon: User,
       title: t.services.personal.title,
       description: t.services.personal.description,
       color: 'bg-accent',
+      link: '/personal-accounting',
     },
   ];
 
@@ -55,10 +59,19 @@ export function Services() {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">{service.title}</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">{service.description}</p>
-              <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-primary hover:text-primary/80">
-                {t.services.learnMore}
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-              </Button>
+              {service.link ? (
+                <Link to={service.link}>
+                  <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-primary hover:text-primary/80">
+                    {t.services.learnMore}
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                  </Button>
+                </Link>
+              ) : (
+                <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-primary hover:text-primary/80">
+                  {t.services.learnMore}
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                </Button>
+              )}
             </div>
           ))}
         </div>
