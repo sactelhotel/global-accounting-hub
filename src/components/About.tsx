@@ -7,7 +7,7 @@ export function About() {
   return (
     <section id="about" className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Content */}
           <div>
             <Badge variant="secondary" className="mb-4 bg-secondary/10 text-secondary hover:bg-secondary/20">
@@ -16,8 +16,11 @@ export function About() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               {t.about.title}
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               {t.about.description}
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              {t.about.descriptionImmigrant}
             </p>
           </div>
 

@@ -20,25 +20,72 @@ export const translations = {
     about: {
       badge: 'About Us',
       title: 'We Speak Your Language, Understand Your Needs',
-      description: 'We specialize in providing personalized accounting solutions for individuals, precise business accounting, and a complete portfolio of business services. Additionally, we speak multiple languages, facilitating clear, reliable, and barrier-free communication.',
+      description: 'At Barahona Accounting Services, we specialize in offering comprehensive accounting solutions that help businesses optimize their financial management. With a team of highly qualified professionals with extensive experience in the sector, we are committed to providing personalized, quality service tailored to each client\'s specific needs. Our mission is to simplify accounting processes, ensuring transparency, accuracy, and compliance with current regulations. Whether for small, medium, or large businesses, at Barahona Accounting Services we work so our clients can make informed and strategic decisions that contribute to the growth and success of their business.',
+      descriptionImmigrant: 'At Barahona Accounting Services, we understand that arriving in a new country can be a challenge, especially when it comes to managing your finances and starting a business. That\'s why we offer specialized accounting services for immigrants, helping you adapt to local tax and financial regulations. Our team of experts is ready to provide the support you need to organize your taxes, understand tax laws, and manage your finances efficiently. We are committed to offering clear and accessible solutions so you can focus on what matters most: your new life and your future in this country.',
       years: 'Years of Experience',
       languages: 'Languages',
     },
     services: {
-      badge: 'Our Expertise',
-      title: 'Personalized Solutions',
-      description: 'We have a team of expert accounting professionals offering solutions tailored to each client\'s specific needs. We maintain clear and transparent communication, providing detailed reports that give you complete control of your finances.',
-      business: {
-        title: 'Business Accounting',
-        description: 'We provide comprehensive business accounting solutions, including financial statements, payroll, and tax compliance, to support data-driven decision making.',
+      badge: 'Our Offerings',
+      title: 'Our Services',
+      description: 'We have a team of expert accounting professionals offering solutions tailored to each client\'s specific needs.',
+      whyChooseUs: {
+        badge: 'Why Choose Us',
+        title: 'Why Choose Us',
+        description: 'At Barahona Accounting Services, we stand out for our commitment to excellence and personalized attention. Choosing us means having a team of professionals who understand your needs, speak your language, and are dedicated to providing clear and effective accounting solutions. We differentiate ourselves through our experience, deep knowledge of local regulations, and our ability to adapt to each client\'s particularities. Whether you need tax advice, tax management, or financial planning, you can trust that we will work hand in hand with you to ensure your success and financial peace of mind.',
       },
-      corporate: {
-        title: 'Corporate Services',
-        description: 'We support your company\'s growth with financial consulting, business creation advice, and efficient accounting system setup tailored to your needs.',
+      workflow: {
+        badge: 'Our Workflow',
+        title: 'Our Workflow',
+        description: 'Our accounting workflow is designed to ensure maximum efficiency and precision at every stage of the process. We begin with a detailed assessment of your company\'s financial needs, collecting and organizing all relevant documentation. From there, we record and classify transactions in an orderly manner in accordance with current tax regulations. Subsequently, we generate clear and detailed financial reports, facilitating decision-making. The entire process is supervised by our accounting experts to guarantee accuracy and compliance. Finally, we provide ongoing advice to optimize your finances and ensure long-term success.',
+        steps: [
+          { title: 'Initial Assessment', description: 'Analysis of the company\'s financial needs and collection of relevant documents.' },
+          { title: 'Transaction Recording', description: 'Detailed classification and recording of all financial transactions.' },
+          { title: 'Account Reconciliation', description: 'Verification and reconciliation of bank accounts and accounting records.' },
+          { title: 'Report Generation', description: 'Creation of clear and detailed financial reports for decision-making.' },
+          { title: 'Tax Compliance', description: 'Ensuring compliance with tax regulations, GST/HST/QST, CNESST, WSIB.' },
+          { title: 'Analysis & Advisory', description: 'Continuous review of finances and strategic advice to optimize resources.' },
+          { title: 'Tax Preparation', description: 'Preparation and filing of personal and corporate tax returns.' },
+          { title: 'Monitoring & Updates', description: 'Constant monitoring to adjust accounting flow and adapt to regulatory or market changes.' },
+        ],
       },
       personal: {
         title: 'Personal Accounting',
-        description: 'We offer personalized accounting services for individuals, from daily financial management to tax filing, ensuring clarity and peace of mind in your personal finances.',
+        description: 'We offer personalized accounting services for individuals, from daily financial management to tax filing.',
+        items: [
+          'Personal tax returns (T1 Return)',
+          'Tax optimization and strategic deductions',
+          'Personal and wealth financial planning',
+          'Tax management for freelancers and self-employed',
+          'Investment and tax savings advisory',
+          'Rental income and investment declarations',
+        ],
+      },
+      business: {
+        title: 'Business Accounting',
+        description: 'We provide comprehensive business accounting solutions for data-driven decision making.',
+        items: [
+          'Preparation and maintenance of accounting books',
+          'Financial statements and periodic reports',
+          'Corporate tax returns (T2 Return)',
+          'HST/GST calculation and management',
+          'Payroll and employee deduction management (Payroll Services)',
+          'Accounting audit and bank reconciliation',
+          'CRA (Canada Revenue Agency) regulatory compliance',
+        ],
+      },
+      corporate: {
+        title: 'Business Services',
+        description: 'We support your company\'s growth with financial consulting and business creation advice.',
+        items: [
+          'Business registration and incorporation in Canada',
+          'Optimal tax structure advisory for startups and SMEs',
+          'Financial management and consulting for business growth',
+          'Accounting software implementation (QuickBooks, Zoho Books, Xero)',
+          'Business cost and profitability evaluation',
+          'Business succession planning and strategies',
+          'Financial analysis for strategic decision-making',
+        ],
       },
       learnMore: 'Learn More',
     },
@@ -52,43 +99,19 @@ export const translations = {
       badge: 'Our Methodology',
       title: 'Our approach guarantees measurable results and complete control of your finances',
       steps: [
-        {
-          title: 'Initial Analysis',
-          description: 'We begin by evaluating your specific accounting needs in detail to fully understand your financial situation.',
-        },
-        {
-          title: 'Personalized Strategy',
-          description: 'We design a custom accounting plan aligned with your financial and business objectives.',
-        },
-        {
-          title: 'Efficient Execution',
-          description: 'We implement clear and effective accounting processes, ensuring transparency and precision at every stage.',
-        },
-        {
-          title: 'Monitoring & Optimization',
-          description: 'We provide periodic reports and proactive recommendations to continuously optimize your finances.',
-        },
+        { title: 'Initial Analysis', description: 'We begin by evaluating your specific accounting needs in detail to fully understand your financial situation.' },
+        { title: 'Personalized Strategy', description: 'We design a custom accounting plan aligned with your financial and business objectives.' },
+        { title: 'Efficient Execution', description: 'We implement clear and effective accounting processes, ensuring transparency and precision at every stage.' },
+        { title: 'Monitoring & Optimization', description: 'We provide periodic reports and proactive recommendations to continuously optimize your finances.' },
       ],
     },
     testimonials: {
       badge: 'Testimonials',
       title: 'Hear from Our Satisfied Clients',
       items: [
-        {
-          text: 'BarahonaPro transformed the way I manage my business finances. Their multilingual team made communication seamless, and their expertise saved me thousands in taxes.',
-          name: 'James Brown',
-          role: 'Business Owner',
-        },
-        {
-          text: 'Exceptional service quality! The team at BarahonaPro helped me understand my financial situation clearly and provided actionable advice that made a real difference.',
-          name: 'Alexandra Swift',
-          role: 'Entrepreneur',
-        },
-        {
-          text: 'A truly remarkable experience. Their professional approach and attention to detail gave me complete confidence in managing my personal and business finances.',
-          name: 'Michael Chen',
-          role: 'Restaurant Owner',
-        },
+        { text: 'BarahonaPro transformed the way I manage my business finances. Their multilingual team made communication seamless, and their expertise saved me thousands in taxes.', name: 'James Brown', role: 'Business Owner' },
+        { text: 'Exceptional service quality! The team at BarahonaPro helped me understand my financial situation clearly and provided actionable advice that made a real difference.', name: 'Alexandra Swift', role: 'Entrepreneur' },
+        { text: 'A truly remarkable experience. Their professional approach and attention to detail gave me complete confidence in managing my personal and business finances.', name: 'Michael Chen', role: 'Restaurant Owner' },
       ],
     },
     footer: {
@@ -126,7 +149,7 @@ export const translations = {
       },
       info: {
         address: 'Address',
-        addressValue: '123 Business Street, Suite 100',
+        addressValue: 'Ottawa, Ontario, Canada',
         phone: 'Phone',
         email: 'Email',
         hours: 'Business Hours',
@@ -139,30 +162,12 @@ export const translations = {
       subtitle: 'Drive your business forward with precise financial management',
       description: 'Our business accounting services are designed to give you complete control over your company\'s finances, enabling data-driven decisions that fuel growth.',
       services: [
-        {
-          title: 'Financial Statements',
-          description: 'Accurate balance sheets, income statements, and cash flow reports prepared according to accounting standards.',
-        },
-        {
-          title: 'Payroll Management',
-          description: 'Complete payroll processing including tax withholdings, benefits administration, and compliance reporting.',
-        },
-        {
-          title: 'Tax Compliance',
-          description: 'Expert preparation and filing of corporate taxes, ensuring maximum deductions and full compliance.',
-        },
-        {
-          title: 'Accounts Payable & Receivable',
-          description: 'Efficient management of your company\'s cash flow through timely invoicing and payment processing.',
-        },
-        {
-          title: 'Financial Analysis',
-          description: 'In-depth analysis of your financial data to identify trends, opportunities, and areas for improvement.',
-        },
-        {
-          title: 'Budgeting & Forecasting',
-          description: 'Strategic financial planning to help you set realistic goals and track performance.',
-        },
+        { title: 'Accounting Books', description: 'Preparation and maintenance of accounting books with precision and regulatory compliance.' },
+        { title: 'Financial Statements', description: 'Preparation of financial statements and periodic reports for informed decision-making.' },
+        { title: 'Corporate Taxes (T2)', description: 'Expert preparation and filing of corporate tax returns (T2 Return).' },
+        { title: 'HST/GST Management', description: 'Calculation and management of HST/GST taxes with accuracy and timeliness.' },
+        { title: 'Payroll Services', description: 'Complete payroll and employee deduction management.' },
+        { title: 'Audit & Compliance', description: 'Accounting audit, bank reconciliation, and CRA regulatory compliance.' },
       ],
       cta: 'Request a Consultation',
       backHome: 'Back to Home',
@@ -173,30 +178,12 @@ export const translations = {
       subtitle: 'Take control of your personal finances with expert guidance',
       description: 'Our personal accounting services help individuals manage their finances effectively, from daily budgeting to tax planning and wealth management.',
       services: [
-        {
-          title: 'Tax Preparation & Filing',
-          description: 'Expert preparation of personal tax returns to maximize your refunds and ensure compliance.',
-        },
-        {
-          title: 'Financial Planning',
-          description: 'Comprehensive financial planning to help you achieve your short and long-term goals.',
-        },
-        {
-          title: 'Budgeting Assistance',
-          description: 'Personalized budgeting strategies to help you manage expenses and increase savings.',
-        },
-        {
-          title: 'Investment Tracking',
-          description: 'Monitor and analyze your investment portfolio for optimal performance.',
-        },
-        {
-          title: 'Estate Planning Support',
-          description: 'Assistance with financial aspects of estate planning to protect your legacy.',
-        },
-        {
-          title: 'Retirement Planning',
-          description: 'Strategic planning to ensure a comfortable and secure retirement.',
-        },
+        { title: 'Tax Returns (T1)', description: 'Expert preparation of personal tax returns (T1 Return) to maximize your refunds.' },
+        { title: 'Tax Optimization', description: 'Strategic tax optimization and deductions to minimize your tax burden.' },
+        { title: 'Financial Planning', description: 'Personal and wealth financial planning for your short and long-term goals.' },
+        { title: 'Freelancer Taxes', description: 'Tax management for freelancers, self-employed, and independent workers.' },
+        { title: 'Investment Advisory', description: 'Advisory in investments and tax savings to grow your wealth.' },
+        { title: 'Rental & Investment Income', description: 'Declarations for rental income, investments, and other passive income sources.' },
       ],
       cta: 'Get Started Today',
       backHome: 'Back to Home',
@@ -221,25 +208,72 @@ export const translations = {
     about: {
       badge: 'Nosotros',
       title: 'Hablamos tu Idioma, Entendemos tus Necesidades',
-      description: 'Nos especializamos en brindar soluciones contables personalizadas para individuos, contabilidad empresarial precisa y un completo portafolio de servicios empresariales. Además, hablamos múltiples idiomas, lo que facilita una comunicación clara, confiable y sin barreras.',
+      description: 'En Barahona Servicios Contables, nos especializamos en ofrecer soluciones contables integrales que ayudan a las empresas a optimizar su gestión financiera. Con un equipo de profesionales altamente calificados y con amplia experiencia en el sector, nos comprometemos a brindar un servicio personalizado y de calidad, adaptado a las necesidades específicas de cada cliente. Nuestra misión es simplificar los procesos contables, garantizando transparencia, precisión y cumplimiento de las normativas vigentes. Ya sea para pequeñas, medianas o grandes empresas, en Barahona Servicios Contables trabajamos para que nuestros clientes puedan tomar decisiones informadas y estratégicas que contribuyan al crecimiento y éxito de su negocio.',
+      descriptionImmigrant: 'En Barahona Servicios Contables, entendemos que llegar a un nuevo país puede ser un desafío, especialmente cuando se trata de gestionar tus finanzas y crear empresa. Es por eso que ofrecemos servicios contables especializados para inmigrantes, ayudándote a adaptarte a las normativas fiscales y financieras locales. Nuestro equipo de expertos está listo para brindarte el apoyo necesario para que puedas organizar tus impuestos, comprender las leyes fiscales y administrar tus finanzas de manera eficiente. Nos comprometemos a ofrecerte soluciones claras y accesibles, para que puedas centrarte en lo más importante: tu nueva vida y tu futuro en este país.',
       years: 'Años de Experiencia',
       languages: 'Idiomas',
     },
     services: {
-      badge: 'Nuestras Competencias',
-      title: 'Soluciones Personalizadas',
-      description: 'Contamos con un equipo de profesionales expertos en contabilidad que ofrece soluciones adaptadas a las necesidades específicas de cada cliente. Mantenemos una comunicación clara y transparente, proporcionando informes detallados que le permitirán tener un control total de sus finanzas.',
+      badge: 'Nuestros Servicios',
+      title: 'Nuestros Servicios',
+      description: 'Contamos con un equipo de profesionales expertos en contabilidad que ofrece soluciones adaptadas a las necesidades específicas de cada cliente.',
+      whyChooseUs: {
+        badge: 'Por Qué Elegirnos',
+        title: '¿Por Qué Elegirnos?',
+        description: 'En Barahona Servicios Contables, nos destacamos por nuestro compromiso con la excelencia y la atención personalizada. Escogernos significa contar con un equipo de profesionales que entiende tus necesidades, habla tu idioma y se dedica a brindarte soluciones contables claras y eficaces. Nos diferenciamos por nuestra experiencia, conocimiento profundo de las normativas locales y nuestra capacidad para adaptarnos a las particularidades de cada cliente. Ya sea que necesites asesoramiento fiscal, gestión de impuestos o planificación financiera, puedes confiar en que trabajaremos de la mano contigo para asegurar tu éxito y tranquilidad financiera.',
+      },
+      workflow: {
+        badge: 'Nuestro Flujo de Trabajo',
+        title: 'Nuestro Flujo de Trabajo',
+        description: 'Nuestro workflow contable está diseñado para garantizar la máxima eficiencia y precisión en cada etapa del proceso. Comenzamos con una evaluación detallada de las necesidades financieras de tu empresa, recopilando y organizando toda la documentación relevante. A partir de ahí, realizamos el registro y clasificación de las transacciones de manera ordenada y conforme a las normativas fiscales vigentes. Posteriormente, generamos informes financieros claros y detallados, facilitando la toma de decisiones. Todo el proceso es supervisado por nuestros expertos contables para garantizar la exactitud y el cumplimiento. Finalmente, te brindamos asesoría continua para optimizar tus finanzas y asegurar el éxito a largo plazo.',
+        steps: [
+          { title: 'Evaluación Inicial', description: 'Análisis de las necesidades financieras de la empresa y recopilación de documentos relevantes.' },
+          { title: 'Registro de Transacciones', description: 'Clasificación y registro detallado de todas las transacciones financieras.' },
+          { title: 'Conciliación de Cuentas', description: 'Verificación y reconciliación de cuentas bancarias y registros contables.' },
+          { title: 'Generación de Informes', description: 'Creación de informes financieros claros y detallados para la toma de decisiones.' },
+          { title: 'Cumplimiento Fiscal', description: 'Aseguramiento del cumplimiento con las normativas fiscales, GST/HST/QST, CNESST, WSIB.' },
+          { title: 'Análisis y Asesoría', description: 'Revisión continua de las finanzas y asesoramiento estratégico para optimizar recursos.' },
+          { title: 'Preparación de Impuestos', description: 'Preparación y presentación de declaraciones fiscales personales y corporativas.' },
+          { title: 'Monitoreo y Actualización', description: 'Seguimiento constante para ajustar el flujo contable y adaptarse a cambios regulatorios o del mercado.' },
+        ],
+      },
+      personal: {
+        title: 'Contabilidad para Personas',
+        description: 'Ofrecemos servicios contables personalizados para individuos, desde la gestión financiera diaria hasta la declaración de impuestos.',
+        items: [
+          'Declaración de impuestos personales (T1 Return)',
+          'Optimización fiscal y deducciones estratégicas',
+          'Planificación financiera personal y patrimonial',
+          'Gestión de impuestos para trabajadores independientes y autónomos',
+          'Asesoría en inversiones y ahorros fiscales',
+          'Declaraciones de ingresos por alquiler o inversiones',
+        ],
+      },
       business: {
-        title: 'Contabilidad Empresarial',
-        description: 'Brindamos soluciones completas de contabilidad empresarial, incluyendo estados financieros, nóminas y cumplimiento fiscal, para apoyar la toma de decisiones basadas en datos reales.',
+        title: 'Contabilidad para Empresas',
+        description: 'Brindamos soluciones completas de contabilidad empresarial para la toma de decisiones basadas en datos.',
+        items: [
+          'Elaboración y mantenimiento de libros contables',
+          'Preparación de estados financieros y reportes periódicos',
+          'Declaraciones de impuestos corporativos (T2 Return)',
+          'Cálculo y gestión de impuestos HST/GST',
+          'Manejo de nómina y deducciones de empleados (Payroll Services)',
+          'Auditoría contable y conciliación bancaria',
+          'Cumplimiento normativo con la CRA (Canada Revenue Agency)',
+        ],
       },
       corporate: {
         title: 'Servicios Empresariales',
-        description: 'Apoyamos el crecimiento de su empresa con consultoría financiera, asesoría en la creación de negocios y configuración de sistemas contables eficientes y adaptados a sus necesidades.',
-      },
-      personal: {
-        title: 'Contabilidad Personal',
-        description: 'Ofrecemos servicios contables personalizados para individuos, desde la gestión financiera diaria hasta la declaración de impuestos, garantizando claridad y tranquilidad en sus finanzas personales.',
+        description: 'Apoyamos el crecimiento de su empresa con consultoría financiera y asesoría en la creación de negocios.',
+        items: [
+          'Registro y constitución de empresas en Canadá',
+          'Asesoría en estructura fiscal óptima para startups y PYMEs',
+          'Gestión y consultoría financiera para crecimiento empresarial',
+          'Implementación de software contable (QuickBooks, Zoho Books, Xero)',
+          'Evaluación de costos y rentabilidad del negocio',
+          'Planificación y estrategias de sucesión empresarial',
+          'Análisis financiero para toma de decisiones estratégicas',
+        ],
       },
       learnMore: 'Leer Más',
     },
@@ -253,43 +287,19 @@ export const translations = {
       badge: 'Nuestra Metodología',
       title: 'Nuestro enfoque garantiza resultados medibles y un control total de sus finanzas',
       steps: [
-        {
-          title: 'Análisis Inicial',
-          description: 'Comenzamos evaluando en detalle sus necesidades contables específicas para comprender a fondo su situación financiera.',
-        },
-        {
-          title: 'Estrategia Personalizada',
-          description: 'Diseñamos un plan contable a medida, alineado con sus objetivos financieros y comerciales.',
-        },
-        {
-          title: 'Ejecución Eficiente',
-          description: 'Implementamos procesos contables claros y efectivos, asegurando transparencia y precisión en cada etapa.',
-        },
-        {
-          title: 'Seguimiento y Optimización',
-          description: 'Proporcionamos reportes periódicos y recomendaciones proactivas para optimizar continuamente sus finanzas.',
-        },
+        { title: 'Análisis Inicial', description: 'Comenzamos evaluando en detalle sus necesidades contables específicas para comprender a fondo su situación financiera.' },
+        { title: 'Estrategia Personalizada', description: 'Diseñamos un plan contable a medida, alineado con sus objetivos financieros y comerciales.' },
+        { title: 'Ejecución Eficiente', description: 'Implementamos procesos contables claros y efectivos, asegurando transparencia y precisión en cada etapa.' },
+        { title: 'Seguimiento y Optimización', description: 'Proporcionamos reportes periódicos y recomendaciones proactivas para optimizar continuamente sus finanzas.' },
       ],
     },
     testimonials: {
       badge: 'Testimonios',
       title: 'Lo Que Dicen Nuestros Clientes',
       items: [
-        {
-          text: 'BarahonaPro transformó la manera en que gestiono las finanzas de mi negocio. Su equipo multilingüe hizo la comunicación fluida, y su experiencia me ahorró miles en impuestos.',
-          name: 'James Brown',
-          role: 'Empresario',
-        },
-        {
-          text: '¡Calidad de servicio excepcional! El equipo de BarahonaPro me ayudó a entender mi situación financiera claramente y proporcionó consejos prácticos que hicieron una diferencia real.',
-          name: 'Alexandra Swift',
-          role: 'Emprendedora',
-        },
-        {
-          text: 'Una experiencia verdaderamente notable. Su enfoque profesional y atención al detalle me dieron confianza total en la gestión de mis finanzas personales y empresariales.',
-          name: 'Michael Chen',
-          role: 'Dueño de Restaurante',
-        },
+        { text: 'BarahonaPro transformó la manera en que gestiono las finanzas de mi negocio. Su equipo multilingüe hizo la comunicación fluida, y su experiencia me ahorró miles en impuestos.', name: 'James Brown', role: 'Empresario' },
+        { text: '¡Calidad de servicio excepcional! El equipo de BarahonaPro me ayudó a entender mi situación financiera claramente y proporcionó consejos prácticos que hicieron una diferencia real.', name: 'Alexandra Swift', role: 'Emprendedora' },
+        { text: 'Una experiencia verdaderamente notable. Su enfoque profesional y atención al detalle me dieron confianza total en la gestión de mis finanzas personales y empresariales.', name: 'Michael Chen', role: 'Dueño de Restaurante' },
       ],
     },
     footer: {
@@ -327,7 +337,7 @@ export const translations = {
       },
       info: {
         address: 'Dirección',
-        addressValue: '123 Calle de Negocios, Suite 100',
+        addressValue: 'Ottawa, Ontario, Canadá',
         phone: 'Teléfono',
         email: 'Correo',
         hours: 'Horario de Atención',
@@ -338,32 +348,14 @@ export const translations = {
       badge: 'Contabilidad Empresarial',
       title: 'Soluciones Integrales de Contabilidad Empresarial',
       subtitle: 'Impulsa tu negocio con una gestión financiera precisa',
-      description: 'Nuestros servicios de contabilidad empresarial están diseñados para darte control total sobre las finanzas de tu empresa, permitiendo decisiones basadas en datos que impulsan el crecimiento.',
+      description: 'Nuestros servicios de contabilidad empresarial están diseñados para darte control total sobre las finanzas de tu empresa.',
       services: [
-        {
-          title: 'Estados Financieros',
-          description: 'Balances, estados de resultados e informes de flujo de caja precisos, preparados según estándares contables.',
-        },
-        {
-          title: 'Gestión de Nómina',
-          description: 'Procesamiento completo de nómina incluyendo retenciones fiscales, administración de beneficios e informes de cumplimiento.',
-        },
-        {
-          title: 'Cumplimiento Fiscal',
-          description: 'Preparación y presentación experta de impuestos corporativos, asegurando máximas deducciones y cumplimiento total.',
-        },
-        {
-          title: 'Cuentas por Pagar y Cobrar',
-          description: 'Gestión eficiente del flujo de caja de tu empresa a través de facturación oportuna y procesamiento de pagos.',
-        },
-        {
-          title: 'Análisis Financiero',
-          description: 'Análisis profundo de tus datos financieros para identificar tendencias, oportunidades y áreas de mejora.',
-        },
-        {
-          title: 'Presupuestos y Proyecciones',
-          description: 'Planificación financiera estratégica para ayudarte a establecer metas realistas y seguir el rendimiento.',
-        },
+        { title: 'Libros Contables', description: 'Elaboración y mantenimiento de libros contables con precisión y cumplimiento normativo.' },
+        { title: 'Estados Financieros', description: 'Preparación de estados financieros y reportes periódicos para decisiones informadas.' },
+        { title: 'Impuestos Corporativos (T2)', description: 'Preparación y presentación experta de declaraciones de impuestos corporativos (T2 Return).' },
+        { title: 'Gestión HST/GST', description: 'Cálculo y gestión de impuestos HST/GST con exactitud y puntualidad.' },
+        { title: 'Servicios de Nómina', description: 'Manejo completo de nómina y deducciones de empleados.' },
+        { title: 'Auditoría y Cumplimiento', description: 'Auditoría contable, conciliación bancaria y cumplimiento normativo con la CRA.' },
       ],
       cta: 'Solicitar Consulta',
       backHome: 'Volver al Inicio',
@@ -372,32 +364,14 @@ export const translations = {
       badge: 'Contabilidad Personal',
       title: 'Gestión de Finanzas Personales Simplificada',
       subtitle: 'Toma el control de tus finanzas personales con orientación experta',
-      description: 'Nuestros servicios de contabilidad personal ayudan a individuos a gestionar sus finanzas efectivamente, desde presupuestos diarios hasta planificación fiscal y gestión patrimonial.',
+      description: 'Nuestros servicios de contabilidad personal ayudan a individuos a gestionar sus finanzas efectivamente.',
       services: [
-        {
-          title: 'Preparación y Declaración de Impuestos',
-          description: 'Preparación experta de declaraciones de impuestos personales para maximizar tus reembolsos y asegurar cumplimiento.',
-        },
-        {
-          title: 'Planificación Financiera',
-          description: 'Planificación financiera integral para ayudarte a alcanzar tus metas a corto y largo plazo.',
-        },
-        {
-          title: 'Asistencia con Presupuestos',
-          description: 'Estrategias de presupuesto personalizadas para ayudarte a gestionar gastos y aumentar ahorros.',
-        },
-        {
-          title: 'Seguimiento de Inversiones',
-          description: 'Monitoreo y análisis de tu portafolio de inversiones para un rendimiento óptimo.',
-        },
-        {
-          title: 'Apoyo en Planificación Patrimonial',
-          description: 'Asistencia con aspectos financieros de planificación patrimonial para proteger tu legado.',
-        },
-        {
-          title: 'Planificación de Jubilación',
-          description: 'Planificación estratégica para asegurar una jubilación cómoda y segura.',
-        },
+        { title: 'Declaración de Impuestos (T1)', description: 'Preparación experta de declaraciones de impuestos personales (T1 Return) para maximizar tus reembolsos.' },
+        { title: 'Optimización Fiscal', description: 'Optimización fiscal estratégica y deducciones para minimizar tu carga tributaria.' },
+        { title: 'Planificación Financiera', description: 'Planificación financiera personal y patrimonial para tus metas a corto y largo plazo.' },
+        { title: 'Impuestos para Independientes', description: 'Gestión de impuestos para trabajadores independientes, autónomos y freelancers.' },
+        { title: 'Asesoría en Inversiones', description: 'Asesoría en inversiones y ahorros fiscales para hacer crecer tu patrimonio.' },
+        { title: 'Ingresos por Alquiler', description: 'Declaraciones de ingresos por alquiler, inversiones y otras fuentes de ingreso pasivo.' },
       ],
       cta: 'Comienza Hoy',
       backHome: 'Volver al Inicio',
@@ -422,25 +396,72 @@ export const translations = {
     about: {
       badge: 'À Propos',
       title: 'Nous Parlons Votre Langue, Comprenons Vos Besoins',
-      description: 'Nous nous spécialisons dans les solutions comptables personnalisées pour les particuliers, une comptabilité d\'entreprise précise et un portefeuille complet de services aux entreprises. De plus, nous parlons plusieurs langues, facilitant une communication claire, fiable et sans barrières.',
+      description: 'Chez Barahona Services Comptables, nous nous spécialisons dans l\'offre de solutions comptables complètes qui aident les entreprises à optimiser leur gestion financière. Avec une équipe de professionnels hautement qualifiés et une vaste expérience dans le secteur, nous nous engageons à fournir un service personnalisé et de qualité, adapté aux besoins spécifiques de chaque client. Notre mission est de simplifier les processus comptables, en garantissant transparence, précision et conformité aux réglementations en vigueur.',
+      descriptionImmigrant: 'Chez Barahona Services Comptables, nous comprenons qu\'arriver dans un nouveau pays peut être un défi, surtout lorsqu\'il s\'agit de gérer vos finances et de créer une entreprise. C\'est pourquoi nous offrons des services comptables spécialisés pour les immigrants, vous aidant à vous adapter aux réglementations fiscales et financières locales. Notre équipe d\'experts est prête à vous fournir le soutien nécessaire pour organiser vos impôts, comprendre les lois fiscales et gérer vos finances efficacement.',
       years: 'Années d\'Expérience',
       languages: 'Langues',
     },
     services: {
-      badge: 'Nos Compétences',
-      title: 'Solutions Personnalisées',
-      description: 'Nous disposons d\'une équipe de professionnels experts en comptabilité offrant des solutions adaptées aux besoins spécifiques de chaque client. Nous maintenons une communication claire et transparente, fournissant des rapports détaillés qui vous permettront d\'avoir un contrôle total de vos finances.',
-      business: {
-        title: 'Comptabilité d\'Entreprise',
-        description: 'Nous fournissons des solutions complètes de comptabilité d\'entreprise, y compris les états financiers, la paie et la conformité fiscale, pour soutenir la prise de décision basée sur des données réelles.',
+      badge: 'Nos Services',
+      title: 'Nos Services',
+      description: 'Nous disposons d\'une équipe de professionnels experts en comptabilité offrant des solutions adaptées aux besoins spécifiques de chaque client.',
+      whyChooseUs: {
+        badge: 'Pourquoi Nous Choisir',
+        title: 'Pourquoi Nous Choisir',
+        description: 'Chez Barahona Services Comptables, nous nous distinguons par notre engagement envers l\'excellence et l\'attention personnalisée. Nous choisir, c\'est avoir une équipe de professionnels qui comprend vos besoins, parle votre langue et se consacre à vous fournir des solutions comptables claires et efficaces. Nous nous différencions par notre expérience, notre connaissance approfondie des réglementations locales et notre capacité à nous adapter aux particularités de chaque client.',
       },
-      corporate: {
-        title: 'Services aux Entreprises',
-        description: 'Nous soutenons la croissance de votre entreprise avec des conseils financiers, des conseils en création d\'entreprise et la mise en place de systèmes comptables efficaces adaptés à vos besoins.',
+      workflow: {
+        badge: 'Notre Flux de Travail',
+        title: 'Notre Flux de Travail',
+        description: 'Notre flux de travail comptable est conçu pour garantir une efficacité et une précision maximales à chaque étape du processus. Nous commençons par une évaluation détaillée des besoins financiers de votre entreprise, en collectant et organisant toute la documentation pertinente. Ensuite, nous enregistrons et classifions les transactions de manière ordonnée et conforme aux réglementations fiscales en vigueur.',
+        steps: [
+          { title: 'Évaluation Initiale', description: 'Analyse des besoins financiers de l\'entreprise et collecte des documents pertinents.' },
+          { title: 'Enregistrement des Transactions', description: 'Classification et enregistrement détaillé de toutes les transactions financières.' },
+          { title: 'Rapprochement des Comptes', description: 'Vérification et rapprochement des comptes bancaires et des registres comptables.' },
+          { title: 'Génération de Rapports', description: 'Création de rapports financiers clairs et détaillés pour la prise de décision.' },
+          { title: 'Conformité Fiscale', description: 'Assurance de la conformité aux réglementations fiscales, GST/HST/QST, CNESST, WSIB.' },
+          { title: 'Analyse et Conseil', description: 'Révision continue des finances et conseil stratégique pour optimiser les ressources.' },
+          { title: 'Préparation des Impôts', description: 'Préparation et dépôt des déclarations fiscales personnelles et corporatives.' },
+          { title: 'Suivi et Mise à Jour', description: 'Suivi constant pour ajuster le flux comptable et s\'adapter aux changements réglementaires ou du marché.' },
+        ],
       },
       personal: {
         title: 'Comptabilité Personnelle',
-        description: 'Nous offrons des services comptables personnalisés aux particuliers, de la gestion financière quotidienne à la déclaration fiscale, garantissant clarté et tranquillité dans vos finances personnelles.',
+        description: 'Nous offrons des services comptables personnalisés aux particuliers.',
+        items: [
+          'Déclarations d\'impôts personnelles (T1 Return)',
+          'Optimisation fiscale et déductions stratégiques',
+          'Planification financière personnelle et patrimoniale',
+          'Gestion fiscale pour travailleurs indépendants et autonomes',
+          'Conseil en investissements et épargne fiscale',
+          'Déclarations de revenus locatifs ou d\'investissements',
+        ],
+      },
+      business: {
+        title: 'Comptabilité d\'Entreprise',
+        description: 'Nous fournissons des solutions complètes de comptabilité d\'entreprise.',
+        items: [
+          'Préparation et tenue des livres comptables',
+          'États financiers et rapports périodiques',
+          'Déclarations d\'impôts corporatifs (T2 Return)',
+          'Calcul et gestion des impôts HST/GST',
+          'Gestion de la paie et des déductions des employés (Payroll Services)',
+          'Audit comptable et rapprochement bancaire',
+          'Conformité réglementaire avec l\'ARC (Agence du revenu du Canada)',
+        ],
+      },
+      corporate: {
+        title: 'Services aux Entreprises',
+        description: 'Nous soutenons la croissance de votre entreprise avec des conseils financiers.',
+        items: [
+          'Enregistrement et constitution d\'entreprises au Canada',
+          'Conseil en structure fiscale optimale pour startups et PME',
+          'Gestion et conseil financier pour la croissance des entreprises',
+          'Mise en œuvre de logiciels comptables (QuickBooks, Zoho Books, Xero)',
+          'Évaluation des coûts et de la rentabilité de l\'entreprise',
+          'Planification et stratégies de succession d\'entreprise',
+          'Analyse financière pour la prise de décisions stratégiques',
+        ],
       },
       learnMore: 'En Savoir Plus',
     },
@@ -454,43 +475,19 @@ export const translations = {
       badge: 'Notre Méthodologie',
       title: 'Notre approche garantit des résultats mesurables et un contrôle total de vos finances',
       steps: [
-        {
-          title: 'Analyse Initiale',
-          description: 'Nous commençons par évaluer en détail vos besoins comptables spécifiques pour comprendre pleinement votre situation financière.',
-        },
-        {
-          title: 'Stratégie Personnalisée',
-          description: 'Nous concevons un plan comptable sur mesure, aligné sur vos objectifs financiers et commerciaux.',
-        },
-        {
-          title: 'Exécution Efficace',
-          description: 'Nous mettons en œuvre des processus comptables clairs et efficaces, assurant transparence et précision à chaque étape.',
-        },
-        {
-          title: 'Suivi et Optimisation',
-          description: 'Nous fournissons des rapports périodiques et des recommandations proactives pour optimiser continuellement vos finances.',
-        },
+        { title: 'Analyse Initiale', description: 'Nous commençons par évaluer en détail vos besoins comptables spécifiques.' },
+        { title: 'Stratégie Personnalisée', description: 'Nous concevons un plan comptable sur mesure, aligné sur vos objectifs financiers et commerciaux.' },
+        { title: 'Exécution Efficace', description: 'Nous mettons en œuvre des processus comptables clairs et efficaces.' },
+        { title: 'Suivi et Optimisation', description: 'Nous fournissons des rapports périodiques et des recommandations proactives.' },
       ],
     },
     testimonials: {
       badge: 'Témoignages',
       title: 'Ce Que Disent Nos Clients',
       items: [
-        {
-          text: 'BarahonaPro a transformé ma façon de gérer les finances de mon entreprise. Leur équipe multilingue a rendu la communication fluide, et leur expertise m\'a fait économiser des milliers en impôts.',
-          name: 'James Brown',
-          role: 'Chef d\'Entreprise',
-        },
-        {
-          text: 'Qualité de service exceptionnelle! L\'équipe de BarahonaPro m\'a aidé à comprendre clairement ma situation financière et m\'a fourni des conseils pratiques qui ont fait une vraie différence.',
-          name: 'Alexandra Swift',
-          role: 'Entrepreneure',
-        },
-        {
-          text: 'Une expérience vraiment remarquable. Leur approche professionnelle et leur attention aux détails m\'ont donné une confiance totale dans la gestion de mes finances personnelles et professionnelles.',
-          name: 'Michael Chen',
-          role: 'Propriétaire de Restaurant',
-        },
+        { text: 'BarahonaPro a transformé ma façon de gérer les finances de mon entreprise. Leur équipe multilingue a rendu la communication fluide.', name: 'James Brown', role: 'Chef d\'Entreprise' },
+        { text: 'Qualité de service exceptionnelle! L\'équipe m\'a aidé à comprendre clairement ma situation financière.', name: 'Alexandra Swift', role: 'Entrepreneure' },
+        { text: 'Une expérience vraiment remarquable. Leur approche professionnelle m\'a donné une confiance totale.', name: 'Michael Chen', role: 'Propriétaire de Restaurant' },
       ],
     },
     footer: {
@@ -503,7 +500,7 @@ export const translations = {
     contact: {
       badge: 'Contactez-Nous',
       title: 'Entrer en Contact',
-      description: 'Vous avez des questions? Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous répondrons dès que possible.',
+      description: 'Vous avez des questions? Envoyez-nous un message et nous vous répondrons dès que possible.',
       form: {
         name: 'Nom Complet',
         namePlaceholder: 'Entrez votre nom complet',
@@ -528,7 +525,7 @@ export const translations = {
       },
       info: {
         address: 'Adresse',
-        addressValue: '123 Rue des Affaires, Suite 100',
+        addressValue: 'Ottawa, Ontario, Canada',
         phone: 'Téléphone',
         email: 'Email',
         hours: 'Heures d\'Ouverture',
@@ -539,32 +536,14 @@ export const translations = {
       badge: 'Comptabilité d\'Entreprise',
       title: 'Solutions Complètes de Comptabilité d\'Entreprise',
       subtitle: 'Propulsez votre entreprise avec une gestion financière précise',
-      description: 'Nos services de comptabilité d\'entreprise sont conçus pour vous donner un contrôle total sur les finances de votre entreprise, permettant des décisions basées sur les données qui alimentent la croissance.',
+      description: 'Nos services de comptabilité d\'entreprise sont conçus pour vous donner un contrôle total sur les finances de votre entreprise.',
       services: [
-        {
-          title: 'États Financiers',
-          description: 'Bilans, comptes de résultat et rapports de flux de trésorerie précis, préparés selon les normes comptables.',
-        },
-        {
-          title: 'Gestion de la Paie',
-          description: 'Traitement complet de la paie incluant les retenues fiscales, l\'administration des avantages et les rapports de conformité.',
-        },
-        {
-          title: 'Conformité Fiscale',
-          description: 'Préparation et dépôt experts des impôts des sociétés, assurant un maximum de déductions et une conformité totale.',
-        },
-        {
-          title: 'Comptes Fournisseurs et Clients',
-          description: 'Gestion efficace de la trésorerie de votre entreprise grâce à une facturation et un traitement des paiements en temps opportun.',
-        },
-        {
-          title: 'Analyse Financière',
-          description: 'Analyse approfondie de vos données financières pour identifier les tendances, opportunités et domaines d\'amélioration.',
-        },
-        {
-          title: 'Budgets et Prévisions',
-          description: 'Planification financière stratégique pour vous aider à définir des objectifs réalistes et suivre les performances.',
-        },
+        { title: 'Livres Comptables', description: 'Préparation et tenue des livres comptables avec précision et conformité.' },
+        { title: 'États Financiers', description: 'Préparation d\'états financiers et rapports périodiques pour des décisions éclairées.' },
+        { title: 'Impôts Corporatifs (T2)', description: 'Préparation et dépôt experts des déclarations d\'impôts corporatifs (T2 Return).' },
+        { title: 'Gestion HST/GST', description: 'Calcul et gestion des impôts HST/GST avec exactitude et ponctualité.' },
+        { title: 'Services de Paie', description: 'Gestion complète de la paie et des déductions des employés.' },
+        { title: 'Audit et Conformité', description: 'Audit comptable, rapprochement bancaire et conformité avec l\'ARC.' },
       ],
       cta: 'Demander une Consultation',
       backHome: 'Retour à l\'Accueil',
@@ -572,33 +551,15 @@ export const translations = {
     personalAccounting: {
       badge: 'Comptabilité Personnelle',
       title: 'Gestion des Finances Personnelles Simplifiée',
-      subtitle: 'Prenez le contrôle de vos finances personnelles avec des conseils d\'experts',
-      description: 'Nos services de comptabilité personnelle aident les particuliers à gérer efficacement leurs finances, de la budgétisation quotidienne à la planification fiscale et la gestion de patrimoine.',
+      subtitle: 'Prenez le contrôle de vos finances personnelles',
+      description: 'Nos services de comptabilité personnelle aident les particuliers à gérer efficacement leurs finances.',
       services: [
-        {
-          title: 'Préparation et Déclaration d\'Impôts',
-          description: 'Préparation experte des déclarations d\'impôts personnelles pour maximiser vos remboursements et assurer la conformité.',
-        },
-        {
-          title: 'Planification Financière',
-          description: 'Planification financière complète pour vous aider à atteindre vos objectifs à court et long terme.',
-        },
-        {
-          title: 'Assistance Budgétaire',
-          description: 'Stratégies budgétaires personnalisées pour vous aider à gérer les dépenses et augmenter l\'épargne.',
-        },
-        {
-          title: 'Suivi des Investissements',
-          description: 'Surveillance et analyse de votre portefeuille d\'investissements pour une performance optimale.',
-        },
-        {
-          title: 'Soutien à la Planification Successorale',
-          description: 'Assistance pour les aspects financiers de la planification successorale pour protéger votre héritage.',
-        },
-        {
-          title: 'Planification de la Retraite',
-          description: 'Planification stratégique pour assurer une retraite confortable et sécurisée.',
-        },
+        { title: 'Déclarations d\'Impôts (T1)', description: 'Préparation experte des déclarations d\'impôts personnelles (T1 Return).' },
+        { title: 'Optimisation Fiscale', description: 'Optimisation fiscale stratégique et déductions pour minimiser votre charge fiscale.' },
+        { title: 'Planification Financière', description: 'Planification financière personnelle et patrimoniale pour vos objectifs.' },
+        { title: 'Impôts pour Indépendants', description: 'Gestion fiscale pour travailleurs indépendants, autonomes et freelancers.' },
+        { title: 'Conseil en Investissements', description: 'Conseil en investissements et épargne fiscale pour faire croître votre patrimoine.' },
+        { title: 'Revenus Locatifs', description: 'Déclarations de revenus locatifs, d\'investissements et autres sources de revenus passifs.' },
       ],
       cta: 'Commencer Aujourd\'hui',
       backHome: 'Retour à l\'Accueil',

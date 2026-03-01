@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import Index from "./pages/Index";
 import Contact from "./pages/Contact";
 import BusinessAccounting from "./pages/BusinessAccounting";
@@ -24,9 +25,9 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/business-accounting" element={<BusinessAccounting />} />
             <Route path="/personal-accounting" element={<PersonalAccounting />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <WhatsAppButton />
         </BrowserRouter>
       </TooltipProvider>
     </LanguageProvider>
