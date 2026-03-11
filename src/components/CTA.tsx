@@ -21,10 +21,12 @@ export function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 gap-2">
-              {t.cta.button}
-              <ArrowRight className="h-5 w-5" />
-            </Button>
+            <a href="/contact">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 gap-2">
+                {t.cta.button}
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
             <a href="tel:+13438433295">
               <Button size="lg" variant="outline" className="w-full sm:w-auto border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2">
                 <Phone className="h-5 w-5" />

@@ -44,10 +44,12 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 gap-2">
-              {t.hero.cta}
-              <ArrowRight className="h-5 w-5" />
-            </Button>
+            <a href="/contact">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 gap-2">
+                {t.hero.cta}
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
             <a href="#services">
               <Button size="lg" variant="outline" className="w-full border-primary-foreground/40 text-primary-foreground bg-primary-foreground/5 hover:bg-primary-foreground/15">
                 {t.hero.ctaSecondary}
