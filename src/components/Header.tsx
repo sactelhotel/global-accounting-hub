@@ -3,6 +3,8 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageSelector } from './LanguageSelector';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Phone } from 'lucide-react';
+import logoIcon from '@/assets/logo-icon.png';
+import logoFull from '@/assets/logo-full.png';
 
 export function Header() {
   const { t } = useLanguage();
@@ -23,12 +25,8 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl font-serif">B</span>
-            </div>
-            <span className="font-serif text-xl font-bold text-foreground">
-              Barahona<span className="text-secondary">Pro</span>
-            </span>
+            <img src={logoIcon} alt="Barahona" className="w-10 h-10 sm:hidden" />
+            <img src={logoFull} alt="Barahona Servicios Contables" className="hidden sm:block h-10" />
           </a>
 
           {/* Desktop Navigation */}
