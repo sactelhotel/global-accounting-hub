@@ -1,5 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logoIcon from '@/assets/logo-icon.png';
 
 export function Footer() {
   const { t } = useLanguage();
@@ -23,12 +24,10 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
-                <span className="text-secondary-foreground font-bold text-xl font-serif">B</span>
-              </div>
+            <div className="flex items-center gap-3 mb-6">
+              <img src={logoIcon} alt="Barahona" className="w-10 h-10" />
               <span className="font-serif text-xl font-bold">
-                Barahona<span className="text-secondary">Pro</span>
+                Barahona <span className="text-secondary">Servicios Contables</span>
               </span>
             </div>
             <p className="text-primary-foreground/70 leading-relaxed">
