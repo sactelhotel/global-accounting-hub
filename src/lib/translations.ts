@@ -120,6 +120,8 @@ export const translations = {
       contact: 'Contact',
       followUs: 'Follow Us',
       rights: 'All rights reserved.',
+      privacyPolicy: 'Privacy Policy',
+      termsOfService: 'Terms of Service',
     },
     contact: {
       badge: 'Contact Us',
@@ -308,6 +310,8 @@ export const translations = {
       contact: 'Contacto',
       followUs: 'Síguenos',
       rights: 'Todos los derechos reservados.',
+      privacyPolicy: 'Política de Privacidad',
+      termsOfService: 'Términos de Servicio',
     },
     contact: {
       badge: 'Contáctenos',
@@ -496,6 +500,8 @@ export const translations = {
       contact: 'Contact',
       followUs: 'Suivez-Nous',
       rights: 'Tous droits réservés.',
+      privacyPolicy: 'Politique de Confidentialité',
+      termsOfService: 'Conditions d\'Utilisation',
     },
     contact: {
       badge: 'Contactez-Nous',
