@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { CookieConsent } from "@/components/CookieConsent";
 import Index from "./pages/Index";
 import Contact from "./pages/Contact";
 import BusinessAccounting from "./pages/BusinessAccounting";
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
           <WhatsAppButton />
+          <CookieConsent />
         </BrowserRouter>
       </TooltipProvider>
     </LanguageProvider>
