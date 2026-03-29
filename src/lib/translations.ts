@@ -218,6 +218,15 @@ export const translations = {
         { title: '8. Governing Law', content: 'These terms are governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein. Any disputes shall be resolved in the courts of Ontario.' },
       ],
     },
+    cookieConsent: {
+      title: 'Privacy & Cookies',
+      message: 'We use cookies and similar technologies to enhance your browsing experience and provide personalized accounting services. By continuing to use our website, you consent to the collection and use of your data in accordance with our privacy policy.',
+      accept: 'Accept All',
+      decline: 'Decline',
+      learnMore: 'Learn more in our',
+      privacyLink: 'Privacy Policy',
+      termsLink: 'Terms of Service',
+    },
   },
   es: {
     nav: {
@@ -436,6 +445,15 @@ export const translations = {
         { title: '8. Ley Aplicable', content: 'Estos términos se rigen por las leyes de la Provincia de Ontario y las leyes federales de Canadá. Cualquier disputa se resolverá en los tribunales de Ontario.' },
       ],
     },
+    cookieConsent: {
+      title: 'Privacidad y Cookies',
+      message: 'Utilizamos cookies y tecnologías similares para mejorar su experiencia de navegación y proporcionar servicios contables personalizados. Al continuar utilizando nuestro sitio web, usted acepta la recopilación y uso de sus datos de acuerdo con nuestra política de privacidad.',
+      accept: 'Aceptar Todo',
+      decline: 'Rechazar',
+      learnMore: 'Más información en nuestra',
+      privacyLink: 'Política de Privacidad',
+      termsLink: 'Términos de Servicio',
+    },
   },
   fr: {
     nav: {
@@ -653,6 +671,15 @@ export const translations = {
         { title: '7. Résiliation', content: 'L\'une ou l\'autre des parties peut mettre fin à la relation de service par avis écrit.' },
         { title: '8. Loi Applicable', content: 'Ces conditions sont régies par les lois de la Province de l\'Ontario et les lois fédérales du Canada.' },
       ],
+    },
+    cookieConsent: {
+      title: 'Confidentialité et Cookies',
+      message: 'Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience de navigation et fournir des services comptables personnalisés. En continuant à utiliser notre site web, vous consentez à la collecte et à l\'utilisation de vos données conformément à notre politique de confidentialité.',
+      accept: 'Tout Accepter',
+      decline: 'Refuser',
+      learnMore: 'En savoir plus dans notre',
+      privacyLink: 'Politique de Confidentialité',
+      termsLink: 'Conditions d\'Utilisation',
     },
   },
 };
