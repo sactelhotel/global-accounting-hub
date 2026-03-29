@@ -10,6 +10,8 @@ import Contact from "./pages/Contact";
 import BusinessAccounting from "./pages/BusinessAccounting";
 import PersonalAccounting from "./pages/PersonalAccounting";
 import NotFound from "./pages/NotFound";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +27,8 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/business-accounting" element={<BusinessAccounting />} />
             <Route path="/personal-accounting" element={<PersonalAccounting />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <WhatsAppButton />

@@ -1,5 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import logoIcon from '@/assets/logo-icon.png';
 
 export function Footer() {
@@ -92,10 +93,18 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
+        <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-primary-foreground/60">
             © {new Date().getFullYear()} BarahonaPro. {t.footer.rights}
           </p>
+          <div className="flex gap-6">
+            <Link to="/privacy-policy" className="text-primary-foreground/60 hover:text-secondary transition-colors text-sm">
+              {t.footer.privacyPolicy}
+            </Link>
+            <Link to="/terms-of-service" className="text-primary-foreground/60 hover:text-secondary transition-colors text-sm">
+              {t.footer.termsOfService}
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
